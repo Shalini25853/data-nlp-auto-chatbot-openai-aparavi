@@ -1,16 +1,16 @@
-# 🚘 Automobile Q&A Chatbot using OpenAI, Weaviate & Aparavi
+# Automobile Q&A Chatbot using OpenAI, Weaviate & Aparavi
 
 An intelligent question-answering chatbot built to respond to queries about automobile specifications such as horsepower, width, fuel type, and more. It uses an ETL pipeline powered by **Aparavi**, embeddings generated via **OpenAI**, and stored/retrieved through **Weaviate vector search**.
 
 ---
 
-## 📌 Problem Statement
+## Problem Statement
 
 Car enthusiasts and buyers often struggle to compare technical specs across various models. This chatbot enables users to ask natural language questions (e.g., "Which car has the highest horsepower under $20k?") and receive accurate answers drawn from a structured dataset processed from unstructured files.
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 - **ETL & Preprocessing**: Aparavi Data Toolchain  
 - **Embedding Model**: OpenAI Text Embeddings  
@@ -20,7 +20,7 @@ Car enthusiasts and buyers often struggle to compare technical specs across vari
 
 ---
 
-## 🔄 Workflow Overview
+## Workflow Overview
 
 1. **Document Parsing**  
    Extracts structured fields from unstructured documents via Aparavi
@@ -41,23 +41,23 @@ Car enthusiasts and buyers often struggle to compare technical specs across vari
 
 ---
 
-## 📊 Sample Use Case
+## Sample Use Case
 
 > **User Query**: “Which car has the highest horsepower under 3000mm width?”  
 > **Bot Response**: “Dodge Challenger — 485hp, width: 1920mm”
 
 ---
 
-## 📁 Files Included
+## Files Included
 
 - `Automobile_team_11-2.ipynb` – Core chatbot pipeline & vector search logic  
 - `README.md` – Project overview and methodology
 
-> 📌 **Note**: Some documents and datasets have been omitted due to confidentiality agreements with the company. Technical diagrams and business documentation are not shared publicly.
+>  **Note**: Some documents and datasets have been omitted due to confidentiality agreements with the company. Technical diagrams and business documentation are not shared publicly.
 
 ---
 
-## 🌐 Business Impact
+## Business Impact
 
 This chatbot framework demonstrates how vectorized semantic search + LLM embeddings can:
 - Reduce dependency on structured queries
@@ -66,14 +66,14 @@ This chatbot framework demonstrates how vectorized semantic search + LLM embeddi
 
 ---
 
-## 🏷️ Tags
+##  Tags
 
 `#openai` `#weaviate` `#nlp` `#vector-search` `#chatbot`  
 `#automobile-data` `#aparavi` `#semantic-search` `#gradio`
 
 ---
 
-## ✍️ Author
+## Author
 
 **Shalini James Paulraj**  
 Graduate Student – Business Analytics & International Business  
